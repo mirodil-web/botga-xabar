@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xabarni bot va kanalga ulash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <marquee class="marque">Kanalga va Botga sorov yuborish </marquee>
+    <div class="form-container">
+        <h2 class="title">Ro'yxatdan o'tish</h2>
+        <form class="js-register-form">
+            <div class="input-group">
+                <label for="name">Ism</label>
+                <input class="input-tr js-first-name" type="text" id="name" placeholder="Ismingizni kiriting" required>
+            </div>
+            <div class="input-group">
+                <label for="age">Yosh</label>
+                <input class="input-tr js-age" type="number" placeholder="Yoshingizni kiriting" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Parol</label>
+                <input class="input-tr password" type="password" id="password" placeholder="Parolingizni kiriting"
+                    required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Telefon raqam</label>
+                <input class="input-tr phone" type="tel" id="phone" placeholder="Telefon raqamingizni kiriting"
+                    required>
+            </div>
+            <button type="submit">Jo'natish</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
